@@ -1,4 +1,4 @@
-SELECT COLUMN_NAME
+SELECT COLUMN_NAME, COLUMN_TYPE
 FROM INFORMATION_SCHEMA.COLUMNS
-WHERE table_name = 'Books'
-AND table_schema = 'alx_book_store'
+WHERE TABLE_NAME = 'Books'
+AND TABLE_SCHEMA = 'alx_book_store'
