@@ -14,7 +14,7 @@ try:
     """
     )
     print("Table created successfully!")
-except:
+except mysql.connector.Error:
     print("Error")
 mycursor.close()
 mydb.close()
